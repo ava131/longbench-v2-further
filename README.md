@@ -36,6 +36,8 @@ python3 -m venv .venv
 ```
 
 `data.json` 太大，已在 `.gitignore` 里排除；用 `download_data.py` 重新下载即可。
+如果之前下到一半，默认会跳过已有文件，加 `--force` 重新下；也可以自己用
+`curl -C -` 续传。本次实测这条链路只有 30–300 KB/s，465 MB 需要较长时间。
 
 ### 下载没完成时
 

@@ -30,8 +30,12 @@ def main():
     p.add_argument("--data-url", default=DATA_URL)
     p.add_argument("--tokenizer-url", default=TOK_URL)
     p.add_argument("--out-dir", default="data")
+    p.add_argument("--force", action="store_true", help="已有文件也重新下载（默认跳过）")
     args = p.parse_args()
-    fetch(args.data_url, os.path.join(args.out_dir, "data.json"))
+    data_path = os.path.join(args.out_dir, "data.json")
+    if args.force and os.path.exists(data_path):
+        os.remove(data_path)
+    fetch(args.data_url, data_path)
     fetch(args.tokenizer_url, os.path.join(args.out_dir, "tokenizer.json"))
 
 
