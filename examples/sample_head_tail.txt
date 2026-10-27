@@ -1,0 +1,47 @@
+doc tokens=32768
+t1 head:
+Contents
+Preface.
+................................................................................................ 67
+I. China’s Court System and Reform Process.
+.................................... 68
+II. Fully Implementing the Judicial Accountability System............... 74
+III. Advancing the Reform of Organizational Structure of Courts..... 86
+IV. 
+Strengthening the System and Mechanism of  
+
+
+…… 省略 138852 字符 ……
+
+t1 tail:
+17, the 
+法院的司法改革（2013-2018）.indd   145
+2019/03/01,星期五   17:42:05
+
+
+中国法院的司法改革（2013—2018）
+146
+-
+-
+Supreme People’s Court issued outlines of judicial protection of intellectual 
+property rights in China (2016-2020), which clarify the basic principles, 
+main objectives and key measures for judicial protection of intellectual 
+property rights. In July 2016, the Supreme People’s Court issued the 
+opinions on promoting three-in-one trial of civil, administrative and criminal 
+IP cases at the courts nationwide, requiring that the IP adjudication divisions 
+of all the people’s courts at all levels shall be renamed IP tribunals
+
+According to the report, how to promote the construction of smart courts?
+
+t2 tail:
+ines of judicial protection of intellectual 
+property rights in China (2016-2020), which clarify the basic principles, 
+main objectives and key measures for judicial protection of intellectual 
+property rights. In July 2016, the Supreme People’s Court issued the 
+opinions on promoting three-in-one trial of civil, administrative and criminal 
+IP cases at the courts nationwide, requiring that the IP adjudication divisions 
+of all the people’s courts at all levels shall be renamed IP tribunals
+
+According to the report, how to promote the construction of smart courts?
+
+The sentence #1 of the text is: "China’s Court System and Reform Process.". What role does this sentence play in the whole text?

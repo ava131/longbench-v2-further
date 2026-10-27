@@ -29,9 +29,26 @@ def length_bucket(n):
 
 
 def split_sentences(text, lang):
+    # 去掉开头的 UUID/短行等噪声，避免把 "26b5c67b-..." 当成第一句
+    lines = text.lstrip().split("\n")
+    while lines:
+        first = lines[0].strip()
+        if len(first) < 40 or re.fullmatch(r"[0-9a-fA-F-]{32,36}", first):
+            lines.pop(0)
+        else:
+            break
+    text = "\n".join(lines)
     pat = r'(?<=[。！？])' if lang == "zh" else r'(?<=[.!?])\s+'
     parts = [x.strip() for x in re.split(pat, text) if x and x.strip()]
-    return parts
+
+    def meaningful(s):
+        if len(s) < 40:
+            return False
+        letters = sum(c.isalpha() for c in s)
+        return letters / max(1, len(s)) >= 0.5
+
+    good = [p for p in parts if meaningful(p)]
+    return good or parts
 
 
 def truncate_tokens(tok, text, n):
@@ -69,7 +86,7 @@ def main():
 
     tok = Tokenizer.from_file(args.tokenizer)
     if args.partial:
-        txt = open(args.data, encoding="utf-8").read()
+        txt = open(args.data, encoding="utf-8", errors="ignore").read()
         pos = txt.rfind("\n  }")
         data = json.loads(txt[: pos + 4] + "\n]")
     else:

@@ -37,7 +37,7 @@ def main():
 
     tok = Tokenizer.from_file(args.tokenizer)
     if args.partial:
-        txt = open(args.data, encoding="utf-8").read()
+        txt = open(args.data, encoding="utf-8", errors="ignore").read()
         pos = txt.rfind("\n  }")
         if pos < 0:
             raise SystemExit("没有找到完整对象，文件太小")
