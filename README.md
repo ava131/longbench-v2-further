@@ -9,6 +9,15 @@
 - 前缀逐字节不变，第 2 轮能命中第 1 轮的整段前缀
 - 输出支持 **LongBench v2 字段** 或 **gsm8k 的 question/answer**
 
+## 开箱即用（无需安装）
+
+clone 后 `ready/` 下已经有生成好的数据集，直接用，不需要 pip install、也不需要下载 465 MB：
+
+- `ready/agent_mt_v2_32k_20x2.jsonl`：20 用户 × 2 轮，LongBench v2 字段
+- `ready/agent_mt_gsm8k_32k_20x2.jsonl`：同样内容，`question`/`answer` 格式
+
+每条 32k tokens，第 2 轮 = 第 1 轮 + 一句追问。详见 [ready/README.md](ready/README.md)。
+
 ## 安装
 
 ```bash

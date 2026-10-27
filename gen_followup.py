@@ -29,6 +29,15 @@ def length_bucket(n):
 
 
 def split_sentences(text, lang):
+    # 有些样本的 context 是 {"doc": "..."} 的 JSON 包装，先拆出来
+    stripped = text.strip()
+    if stripped.startswith("{") and '"doc"' in stripped[:200]:
+        try:
+            obj = json.loads(stripped)
+            if isinstance(obj, dict) and isinstance(obj.get("doc"), str):
+                text = obj["doc"]
+        except Exception:
+            pass
     # 去掉开头的 UUID/短行等噪声，避免把 "26b5c67b-..." 当成第一句
     lines = text.lstrip().split("\n")
     while lines:
