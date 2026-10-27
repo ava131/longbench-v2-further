@@ -30,3 +30,15 @@ v2 格式多带 `_id / domain / sub_domain / difficulty / length / choice_A-D / 
 .venv/bin/python gen_followup.py --per-turn 20 --turns 2 \
     --format v2 --target-tokens 32768 --out ready/agent_mt_v2_32k_20x2.jsonl
 ```
+
+## 4 轮版本
+
+| 文件 | 条数 | 大小 |
+|---|---|---|
+| `agent_mt_gsm8k_32k_20x4.jsonl` | 80（20 用户 × 4 轮） | ~11 MB |
+| `agent_mt_v2_32k_20x4.jsonl` | 80 | ~11 MB |
+
+- 第 1 轮：原生 question
+- 第 t 轮（t=2/3/4）：在上一轮 question 后追加第 (t-1) 句 + 追问
+- 实测 token：t1 32,819 / t2 32,886 / t3 32,953 / t4 33,014（每轮 +67 左右）
+- 每条 t 轮 prompt 都以 t-1 轮为前缀（`startswith` 校验通过）
