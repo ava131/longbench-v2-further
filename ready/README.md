@@ -73,3 +73,5 @@ v2 格式多带 `_id / domain / sub_domain / difficulty / length / choice_A-D / 
 - token 范围 32,777–33,403
 
 文件按发送顺序排列；manifest 里有 `pos / kind / base / occ / tokens`。
+
+> 正态间隔版本的完整统计见 [normal_32k_summary.md](normal_32k_summary.md)。
