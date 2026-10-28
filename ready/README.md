@@ -61,3 +61,15 @@ v2 格式多带 `_id / domain / sub_domain / difficulty / length / choice_A-D / 
 | 3 | 25 | 25 | 25.0 | 21–28 |
 
 同一条 base 的相邻两次出现，后一次 prompt 以前一次为前缀（追加一句追问），校验通过。
+
+## 正态间隔版本（154 条）
+
+`normal_32k_gsm8k.jsonl` / `normal_32k_v2.jsonl` + `normal_32k.manifest.json`
+
+- 20 条 base，每条重复 **7 次** = 140 条
+- 14 条完全独立的 prompt，各出现 1 次 = 14 条
+- 间隔目标 **N(22, 3)**，实测：均值 **21.98**、标准差 **3.00**、范围 15–32
+- 每条重复 = 同一 32k 前缀 + 追加第 k 句追问；同 base 相邻两次前缀链校验通过
+- token 范围 32,777–33,403
+
+文件按发送顺序排列；manifest 里有 `pos / kind / base / occ / tokens`。

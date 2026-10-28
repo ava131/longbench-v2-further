@@ -17,6 +17,7 @@ clone 后 `ready/` 下已经有生成好的数据集，直接用，不需要 pip
 - `ready/agent_mt_v2_32k_20x4.jsonl`：同样内容，LongBench v2 字段
 - 另有 2 轮版本 `*_20x2.jsonl`
 - `ready/grouped_32k_gsm8k.jsonl`：分组间隔负载（10×22 / 5×20 / 5×25，各 4 次 + 15 条独立）
+- `ready/normal_32k_gsm8k.jsonl` / `normal_32k_v2.jsonl`：154 条，间隔 N(22,3)，20 条 base 各 7 次 + 14 条独立
 
 每条 32k tokens，第 2 轮 = 第 1 轮 + 一句追问。详见 [ready/README.md](ready/README.md)。
 
