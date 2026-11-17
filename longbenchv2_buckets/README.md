@@ -22,3 +22,7 @@
 ## 字段
 
 保留 LongBench v2 原字段，另加 `_tokens`（该样本的 token 数）。
+
+## 合并文件
+
+`longbenchv2_136.json`：把上面四组合并成一个 JSON 数组（136 条），每条多一个 `bucket` 字段（`lt32k` / `32k` / `36k` / `64k`）。
