@@ -26,3 +26,5 @@
 ## 合并文件
 
 `longbenchv2_136.json`：把上面四组合并成一个 JSON 数组（136 条），每条多一个 `bucket` 字段（`lt32k` / `32k` / `36k` / `64k`）。
+
+`longbenchv2_136.jsonl`：同样的 136 条，每行一个 JSON 对象（JSONL）。如果 AISBench 的 `datasets` 版本较老、不认 JSON 数组，用这个文件。
