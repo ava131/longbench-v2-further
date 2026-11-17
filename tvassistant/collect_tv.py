@@ -79,10 +79,18 @@ def token_count(tok, turns):
 
 def build_prompt(topics, persona, seeds, first):
     lines = [f"用户人设：{persona}。"]
-    lines.append("真实的电视助手话题素材（用户可能会这样问）：")
-    for name, qs in seeds:
-        lines.append(f"【{name}】" + "；".join(qs))
-    lines.append("把上面这些话题自然地串成一段连续对话，用户会追问、换话题、表达喜好。")
+    if len(seeds) == 1:
+        name, qs = seeds[0]
+        lines.append(f"主线话题：{name}。")
+        lines.append("真实的电视助手素材（用户可能会这样问）：" + "；".join(qs))
+        lines.append("整段对话都围绕这个主线展开，可以不断深入：剧情细节、角色、演员、幕后、观众评价。")
+        lines.append("允许自然联想和发散（比如从美国队长联想到吴京、战狼、其他动作片），")
+        lines.append("但主线不要丢，聊几轮要能绕回来；不要切换到天气、股票、养生等无关话题。")
+    else:
+        lines.append("真实的电视助手话题素材（用户可能会这样问）：")
+        for name, qs in seeds:
+            lines.append(f"【{name}】" + "；".join(qs))
+        lines.append("把上面这些话题自然地串成一段连续对话，用户会追问、换话题、表达喜好。")
     lines.append("助手回答 2-4 句，中文口语化，像电视上的智能助手。")
     lines.append("必须写满，不要提前结束，不要写总结。")
     return "\n".join(lines)
@@ -92,14 +100,19 @@ def gen_one(args, idx, tok, topics):
     rng = random.Random(args.seed + idx)
     names = list(topics)
     rng.shuffle(names)
-    chosen = names[:args.topics_per_conv]
     persona = rng.choice(PERSONAS)
     seeds = []
-    for name in chosen:
-        qs = topics[name]["user"]
-        if not qs:
-            continue
-        seeds.append((name, rng.sample(qs, min(len(qs), rng.randint(2, 3)))))
+    if args.mode == "single":
+        name = names[0]
+        qs = topics[name]["user"] or ["随便聊聊"]
+        seeds = [(name, rng.sample(qs, min(len(qs), 4)))]
+    else:
+        chosen = names[:args.topics_per_conv]
+        for name in chosen:
+            qs = topics[name]["user"]
+            if not qs:
+                continue
+            seeds.append((name, rng.sample(qs, min(len(qs), rng.randint(2, 3)))))
     turns = []
     chunks = 0
     out = Path(args.out) / f"{idx:02d}.json"
@@ -164,6 +177,8 @@ def main():
     ap.add_argument("--max-chunks", type=int, default=40)
     ap.add_argument("--max-tokens", type=int, default=3200)
     ap.add_argument("--topics-per-conv", type=int, default=8)
+    ap.add_argument("--mode", choices=["multi","single"], default="single",
+                    help="single=每条只聊一个主话题（允许联想）；multi=混合多话题")
     ap.add_argument("--seed", type=int, default=2026)
     ap.add_argument("--base-url", default=os.environ.get("BASE_URL", "https://api.deepseek.com"))
     ap.add_argument("--model", default=os.environ.get("MODEL", "deepseek-flash"))

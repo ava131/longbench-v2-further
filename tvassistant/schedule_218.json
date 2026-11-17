@@ -1,0 +1,1528 @@
+[
+ {
+  "pos": 0,
+  "kind": "head",
+  "persona": "73",
+  "occ": 0,
+  "tokens": 32776
+ },
+ {
+  "pos": 1,
+  "kind": "head",
+  "persona": "9",
+  "occ": 0,
+  "tokens": 32772
+ },
+ {
+  "pos": 2,
+  "kind": "outlier",
+  "persona": "49",
+  "occ": 0,
+  "tokens": 32770
+ },
+ {
+  "pos": 3,
+  "kind": "repeat",
+  "persona": "108",
+  "occ": 0,
+  "tokens": 32764
+ },
+ {
+  "pos": 4,
+  "kind": "repeat",
+  "persona": "655",
+  "occ": 0,
+  "tokens": 32778
+ },
+ {
+  "pos": 5,
+  "kind": "repeat",
+  "persona": "19",
+  "occ": 0,
+  "tokens": 32774
+ },
+ {
+  "pos": 6,
+  "kind": "repeat",
+  "persona": "48",
+  "occ": 0,
+  "tokens": 32779
+ },
+ {
+  "pos": 7,
+  "kind": "repeat",
+  "persona": "38",
+  "occ": 0,
+  "tokens": 32770
+ },
+ {
+  "pos": 8,
+  "kind": "repeat",
+  "persona": "90",
+  "occ": 0,
+  "tokens": 32768
+ },
+ {
+  "pos": 9,
+  "kind": "indep",
+  "persona": "29",
+  "occ": 0,
+  "tokens": 32773
+ },
+ {
+  "pos": 10,
+  "kind": "outlier",
+  "persona": "114",
+  "occ": 0,
+  "tokens": 32765
+ },
+ {
+  "pos": 11,
+  "kind": "repeat",
+  "persona": "70",
+  "occ": 0,
+  "tokens": 32765
+ },
+ {
+  "pos": 12,
+  "kind": "repeat",
+  "persona": "108",
+  "occ": 1,
+  "tokens": 32868
+ },
+ {
+  "pos": 13,
+  "kind": "repeat",
+  "persona": "655",
+  "occ": 1,
+  "tokens": 32877
+ },
+ {
+  "pos": 14,
+  "kind": "outlier",
+  "persona": "72",
+  "occ": 0,
+  "tokens": 32785
+ },
+ {
+  "pos": 15,
+  "kind": "repeat",
+  "persona": "461",
+  "occ": 0,
+  "tokens": 32761
+ },
+ {
+  "pos": 16,
+  "kind": "repeat",
+  "persona": "19",
+  "occ": 1,
+  "tokens": 32879
+ },
+ {
+  "pos": 17,
+  "kind": "repeat",
+  "persona": "48",
+  "occ": 1,
+  "tokens": 32879
+ },
+ {
+  "pos": 18,
+  "kind": "repeat",
+  "persona": "38",
+  "occ": 1,
+  "tokens": 32870
+ },
+ {
+  "pos": 19,
+  "kind": "repeat",
+  "persona": "3",
+  "occ": 0,
+  "tokens": 32757
+ },
+ {
+  "pos": 20,
+  "kind": "repeat",
+  "persona": "25",
+  "occ": 0,
+  "tokens": 32775
+ },
+ {
+  "pos": 21,
+  "kind": "repeat",
+  "persona": "90",
+  "occ": 1,
+  "tokens": 32872
+ },
+ {
+  "pos": 22,
+  "kind": "repeat",
+  "persona": "20",
+  "occ": 0,
+  "tokens": 32771
+ },
+ {
+  "pos": 23,
+  "kind": "repeat",
+  "persona": "32",
+  "occ": 0,
+  "tokens": 32762
+ },
+ {
+  "pos": 24,
+  "kind": "indep",
+  "persona": "45",
+  "occ": 0,
+  "tokens": 32760
+ },
+ {
+  "pos": 25,
+  "kind": "repeat",
+  "persona": "36",
+  "occ": 0,
+  "tokens": 32769
+ },
+ {
+  "pos": 26,
+  "kind": "repeat",
+  "persona": "10",
+  "occ": 0,
+  "tokens": 32771
+ },
+ {
+  "pos": 27,
+  "kind": "repeat",
+  "persona": "70",
+  "occ": 1,
+  "tokens": 32872
+ },
+ {
+  "pos": 28,
+  "kind": "repeat",
+  "persona": "2",
+  "occ": 0,
+  "tokens": 32749
+ },
+ {
+  "pos": 29,
+  "kind": "repeat",
+  "persona": "108",
+  "occ": 2,
+  "tokens": 32979
+ },
+ {
+  "pos": 30,
+  "kind": "repeat",
+  "persona": "35",
+  "occ": 0,
+  "tokens": 32767
+ },
+ {
+  "pos": 31,
+  "kind": "repeat",
+  "persona": "655",
+  "occ": 2,
+  "tokens": 32959
+ },
+ {
+  "pos": 32,
+  "kind": "repeat",
+  "persona": "461",
+  "occ": 1,
+  "tokens": 32868
+ },
+ {
+  "pos": 33,
+  "kind": "repeat",
+  "persona": "19",
+  "occ": 2,
+  "tokens": 32975
+ },
+ {
+  "pos": 34,
+  "kind": "repeat",
+  "persona": "26",
+  "occ": 0,
+  "tokens": 32768
+ },
+ {
+  "pos": 35,
+  "kind": "repeat",
+  "persona": "48",
+  "occ": 2,
+  "tokens": 32981
+ },
+ {
+  "pos": 36,
+  "kind": "repeat",
+  "persona": "14",
+  "occ": 0,
+  "tokens": 32775
+ },
+ {
+  "pos": 37,
+  "kind": "repeat",
+  "persona": "38",
+  "occ": 2,
+  "tokens": 32970
+ },
+ {
+  "pos": 38,
+  "kind": "repeat",
+  "persona": "76",
+  "occ": 0,
+  "tokens": 32779
+ },
+ {
+  "pos": 39,
+  "kind": "repeat",
+  "persona": "3",
+  "occ": 1,
+  "tokens": 32858
+ },
+ {
+  "pos": 40,
+  "kind": "indep",
+  "persona": "77",
+  "occ": 0,
+  "tokens": 32773
+ },
+ {
+  "pos": 41,
+  "kind": "repeat",
+  "persona": "46",
+  "occ": 0,
+  "tokens": 32775
+ },
+ {
+  "pos": 42,
+  "kind": "repeat",
+  "persona": "25",
+  "occ": 1,
+  "tokens": 32868
+ },
+ {
+  "pos": 43,
+  "kind": "repeat",
+  "persona": "90",
+  "occ": 2,
+  "tokens": 32971
+ },
+ {
+  "pos": 44,
+  "kind": "repeat",
+  "persona": "20",
+  "occ": 1,
+  "tokens": 32859
+ },
+ {
+  "pos": 45,
+  "kind": "repeat",
+  "persona": "32",
+  "occ": 1,
+  "tokens": 32862
+ },
+ {
+  "pos": 46,
+  "kind": "outlier",
+  "persona": "8",
+  "occ": 0,
+  "tokens": 32788
+ },
+ {
+  "pos": 47,
+  "kind": "repeat",
+  "persona": "36",
+  "occ": 1,
+  "tokens": 32876
+ },
+ {
+  "pos": 48,
+  "kind": "outlier",
+  "persona": "8",
+  "occ": 1,
+  "tokens": 32886
+ },
+ {
+  "pos": 49,
+  "kind": "repeat",
+  "persona": "10",
+  "occ": 1,
+  "tokens": 32865
+ },
+ {
+  "pos": 50,
+  "kind": "repeat",
+  "persona": "70",
+  "occ": 2,
+  "tokens": 32970
+ },
+ {
+  "pos": 51,
+  "kind": "repeat",
+  "persona": "2",
+  "occ": 1,
+  "tokens": 32852
+ },
+ {
+  "pos": 52,
+  "kind": "repeat",
+  "persona": "108",
+  "occ": 3,
+  "tokens": 33072
+ },
+ {
+  "pos": 53,
+  "kind": "repeat",
+  "persona": "35",
+  "occ": 1,
+  "tokens": 32859
+ },
+ {
+  "pos": 54,
+  "kind": "repeat",
+  "persona": "655",
+  "occ": 3,
+  "tokens": 33055
+ },
+ {
+  "pos": 55,
+  "kind": "indep",
+  "persona": "18",
+  "occ": 0,
+  "tokens": 32766
+ },
+ {
+  "pos": 56,
+  "kind": "repeat",
+  "persona": "461",
+  "occ": 2,
+  "tokens": 32970
+ },
+ {
+  "pos": 57,
+  "kind": "repeat",
+  "persona": "19",
+  "occ": 3,
+  "tokens": 33069
+ },
+ {
+  "pos": 58,
+  "kind": "repeat",
+  "persona": "26",
+  "occ": 1,
+  "tokens": 32853
+ },
+ {
+  "pos": 59,
+  "kind": "repeat",
+  "persona": "48",
+  "occ": 3,
+  "tokens": 33078
+ },
+ {
+  "pos": 60,
+  "kind": "repeat",
+  "persona": "14",
+  "occ": 1,
+  "tokens": 32874
+ },
+ {
+  "pos": 61,
+  "kind": "outlier",
+  "persona": "114",
+  "occ": 1,
+  "tokens": 32858
+ },
+ {
+  "pos": 62,
+  "kind": "repeat",
+  "persona": "38",
+  "occ": 3,
+  "tokens": 33068
+ },
+ {
+  "pos": 63,
+  "kind": "repeat",
+  "persona": "76",
+  "occ": 1,
+  "tokens": 32879
+ },
+ {
+  "pos": 64,
+  "kind": "repeat",
+  "persona": "3",
+  "occ": 2,
+  "tokens": 32960
+ },
+ {
+  "pos": 65,
+  "kind": "repeat",
+  "persona": "46",
+  "occ": 1,
+  "tokens": 32862
+ },
+ {
+  "pos": 66,
+  "kind": "repeat",
+  "persona": "25",
+  "occ": 2,
+  "tokens": 32955
+ },
+ {
+  "pos": 67,
+  "kind": "repeat",
+  "persona": "90",
+  "occ": 3,
+  "tokens": 33069
+ },
+ {
+  "pos": 68,
+  "kind": "repeat",
+  "persona": "20",
+  "occ": 2,
+  "tokens": 32956
+ },
+ {
+  "pos": 69,
+  "kind": "repeat",
+  "persona": "32",
+  "occ": 2,
+  "tokens": 32965
+ },
+ {
+  "pos": 70,
+  "kind": "indep",
+  "persona": "6",
+  "occ": 0,
+  "tokens": 32772
+ },
+ {
+  "pos": 71,
+  "kind": "repeat",
+  "persona": "36",
+  "occ": 2,
+  "tokens": 32966
+ },
+ {
+  "pos": 72,
+  "kind": "repeat",
+  "persona": "10",
+  "occ": 2,
+  "tokens": 32967
+ },
+ {
+  "pos": 73,
+  "kind": "repeat",
+  "persona": "70",
+  "occ": 3,
+  "tokens": 33080
+ },
+ {
+  "pos": 74,
+  "kind": "repeat",
+  "persona": "2",
+  "occ": 2,
+  "tokens": 32958
+ },
+ {
+  "pos": 75,
+  "kind": "repeat",
+  "persona": "108",
+  "occ": 4,
+  "tokens": 33176
+ },
+ {
+  "pos": 76,
+  "kind": "repeat",
+  "persona": "35",
+  "occ": 2,
+  "tokens": 32970
+ },
+ {
+  "pos": 77,
+  "kind": "repeat",
+  "persona": "655",
+  "occ": 4,
+  "tokens": 33147
+ },
+ {
+  "pos": 78,
+  "kind": "repeat",
+  "persona": "461",
+  "occ": 3,
+  "tokens": 33082
+ },
+ {
+  "pos": 79,
+  "kind": "repeat",
+  "persona": "19",
+  "occ": 4,
+  "tokens": 33169
+ },
+ {
+  "pos": 80,
+  "kind": "repeat",
+  "persona": "26",
+  "occ": 2,
+  "tokens": 32970
+ },
+ {
+  "pos": 81,
+  "kind": "repeat",
+  "persona": "48",
+  "occ": 4,
+  "tokens": 33176
+ },
+ {
+  "pos": 82,
+  "kind": "repeat",
+  "persona": "14",
+  "occ": 2,
+  "tokens": 32974
+ },
+ {
+  "pos": 83,
+  "kind": "repeat",
+  "persona": "38",
+  "occ": 4,
+  "tokens": 33168
+ },
+ {
+  "pos": 84,
+  "kind": "repeat",
+  "persona": "76",
+  "occ": 2,
+  "tokens": 32983
+ },
+ {
+  "pos": 85,
+  "kind": "repeat",
+  "persona": "3",
+  "occ": 3,
+  "tokens": 33062
+ },
+ {
+  "pos": 86,
+  "kind": "indep",
+  "persona": "17",
+  "occ": 0,
+  "tokens": 32762
+ },
+ {
+  "pos": 87,
+  "kind": "repeat",
+  "persona": "46",
+  "occ": 2,
+  "tokens": 32967
+ },
+ {
+  "pos": 88,
+  "kind": "repeat",
+  "persona": "25",
+  "occ": 3,
+  "tokens": 33058
+ },
+ {
+  "pos": 89,
+  "kind": "repeat",
+  "persona": "90",
+  "occ": 4,
+  "tokens": 33165
+ },
+ {
+  "pos": 90,
+  "kind": "repeat",
+  "persona": "20",
+  "occ": 3,
+  "tokens": 33053
+ },
+ {
+  "pos": 91,
+  "kind": "repeat",
+  "persona": "32",
+  "occ": 3,
+  "tokens": 33059
+ },
+ {
+  "pos": 92,
+  "kind": "repeat",
+  "persona": "36",
+  "occ": 3,
+  "tokens": 33073
+ },
+ {
+  "pos": 93,
+  "kind": "repeat",
+  "persona": "10",
+  "occ": 3,
+  "tokens": 33077
+ },
+ {
+  "pos": 94,
+  "kind": "repeat",
+  "persona": "70",
+  "occ": 4,
+  "tokens": 33176
+ },
+ {
+  "pos": 95,
+  "kind": "repeat",
+  "persona": "2",
+  "occ": 3,
+  "tokens": 33056
+ },
+ {
+  "pos": 96,
+  "kind": "outlier",
+  "persona": "96",
+  "occ": 0,
+  "tokens": 32767
+ },
+ {
+  "pos": 97,
+  "kind": "outlier",
+  "persona": "96",
+  "occ": 1,
+  "tokens": 32861
+ },
+ {
+  "pos": 98,
+  "kind": "repeat",
+  "persona": "108",
+  "occ": 5,
+  "tokens": 33277
+ },
+ {
+  "pos": 99,
+  "kind": "repeat",
+  "persona": "35",
+  "occ": 3,
+  "tokens": 33081
+ },
+ {
+  "pos": 100,
+  "kind": "repeat",
+  "persona": "655",
+  "occ": 5,
+  "tokens": 33249
+ },
+ {
+  "pos": 101,
+  "kind": "indep",
+  "persona": "13",
+  "occ": 0,
+  "tokens": 32763
+ },
+ {
+  "pos": 102,
+  "kind": "repeat",
+  "persona": "461",
+  "occ": 4,
+  "tokens": 33180
+ },
+ {
+  "pos": 103,
+  "kind": "repeat",
+  "persona": "19",
+  "occ": 5,
+  "tokens": 33274
+ },
+ {
+  "pos": 104,
+  "kind": "repeat",
+  "persona": "26",
+  "occ": 3,
+  "tokens": 33069
+ },
+ {
+  "pos": 105,
+  "kind": "repeat",
+  "persona": "48",
+  "occ": 5,
+  "tokens": 33278
+ },
+ {
+  "pos": 106,
+  "kind": "repeat",
+  "persona": "14",
+  "occ": 3,
+  "tokens": 33090
+ },
+ {
+  "pos": 107,
+  "kind": "repeat",
+  "persona": "38",
+  "occ": 5,
+  "tokens": 33263
+ },
+ {
+  "pos": 108,
+  "kind": "repeat",
+  "persona": "76",
+  "occ": 3,
+  "tokens": 33068
+ },
+ {
+  "pos": 109,
+  "kind": "repeat",
+  "persona": "3",
+  "occ": 4,
+  "tokens": 33157
+ },
+ {
+  "pos": 110,
+  "kind": "repeat",
+  "persona": "46",
+  "occ": 3,
+  "tokens": 33074
+ },
+ {
+  "pos": 111,
+  "kind": "repeat",
+  "persona": "25",
+  "occ": 4,
+  "tokens": 33168
+ },
+ {
+  "pos": 112,
+  "kind": "repeat",
+  "persona": "90",
+  "occ": 5,
+  "tokens": 33265
+ },
+ {
+  "pos": 113,
+  "kind": "repeat",
+  "persona": "20",
+  "occ": 4,
+  "tokens": 33158
+ },
+ {
+  "pos": 114,
+  "kind": "repeat",
+  "persona": "32",
+  "occ": 4,
+  "tokens": 33167
+ },
+ {
+  "pos": 115,
+  "kind": "outlier",
+  "persona": "72",
+  "occ": 1,
+  "tokens": 32895
+ },
+ {
+  "pos": 116,
+  "kind": "indep",
+  "persona": "44",
+  "occ": 0,
+  "tokens": 32779
+ },
+ {
+  "pos": 117,
+  "kind": "repeat",
+  "persona": "36",
+  "occ": 4,
+  "tokens": 33163
+ },
+ {
+  "pos": 118,
+  "kind": "repeat",
+  "persona": "10",
+  "occ": 4,
+  "tokens": 33174
+ },
+ {
+  "pos": 119,
+  "kind": "repeat",
+  "persona": "70",
+  "occ": 5,
+  "tokens": 33284
+ },
+ {
+  "pos": 120,
+  "kind": "repeat",
+  "persona": "2",
+  "occ": 4,
+  "tokens": 33161
+ },
+ {
+  "pos": 121,
+  "kind": "repeat",
+  "persona": "108",
+  "occ": 6,
+  "tokens": 33372
+ },
+ {
+  "pos": 122,
+  "kind": "repeat",
+  "persona": "35",
+  "occ": 4,
+  "tokens": 33175
+ },
+ {
+  "pos": 123,
+  "kind": "repeat",
+  "persona": "655",
+  "occ": 6,
+  "tokens": 33349
+ },
+ {
+  "pos": 124,
+  "kind": "repeat",
+  "persona": "461",
+  "occ": 5,
+  "tokens": 33267
+ },
+ {
+  "pos": 125,
+  "kind": "repeat",
+  "persona": "19",
+  "occ": 6,
+  "tokens": 33366
+ },
+ {
+  "pos": 126,
+  "kind": "repeat",
+  "persona": "26",
+  "occ": 4,
+  "tokens": 33168
+ },
+ {
+  "pos": 127,
+  "kind": "repeat",
+  "persona": "48",
+  "occ": 6,
+  "tokens": 33370
+ },
+ {
+  "pos": 128,
+  "kind": "repeat",
+  "persona": "14",
+  "occ": 4,
+  "tokens": 33186
+ },
+ {
+  "pos": 129,
+  "kind": "repeat",
+  "persona": "38",
+  "occ": 6,
+  "tokens": 33370
+ },
+ {
+  "pos": 130,
+  "kind": "repeat",
+  "persona": "76",
+  "occ": 4,
+  "tokens": 33163
+ },
+ {
+  "pos": 131,
+  "kind": "indep",
+  "persona": "41",
+  "occ": 0,
+  "tokens": 32767
+ },
+ {
+  "pos": 132,
+  "kind": "repeat",
+  "persona": "3",
+  "occ": 5,
+  "tokens": 33260
+ },
+ {
+  "pos": 133,
+  "kind": "repeat",
+  "persona": "46",
+  "occ": 4,
+  "tokens": 33160
+ },
+ {
+  "pos": 134,
+  "kind": "repeat",
+  "persona": "25",
+  "occ": 5,
+  "tokens": 33258
+ },
+ {
+  "pos": 135,
+  "kind": "repeat",
+  "persona": "90",
+  "occ": 6,
+  "tokens": 33355
+ },
+ {
+  "pos": 136,
+  "kind": "repeat",
+  "persona": "20",
+  "occ": 5,
+  "tokens": 33255
+ },
+ {
+  "pos": 137,
+  "kind": "repeat",
+  "persona": "32",
+  "occ": 5,
+  "tokens": 33255
+ },
+ {
+  "pos": 138,
+  "kind": "repeat",
+  "persona": "36",
+  "occ": 5,
+  "tokens": 33257
+ },
+ {
+  "pos": 139,
+  "kind": "repeat",
+  "persona": "10",
+  "occ": 5,
+  "tokens": 33276
+ },
+ {
+  "pos": 140,
+  "kind": "repeat",
+  "persona": "70",
+  "occ": 6,
+  "tokens": 33375
+ },
+ {
+  "pos": 141,
+  "kind": "repeat",
+  "persona": "2",
+  "occ": 5,
+  "tokens": 33259
+ },
+ {
+  "pos": 142,
+  "kind": "repeat",
+  "persona": "108",
+  "occ": 7,
+  "tokens": 33457
+ },
+ {
+  "pos": 143,
+  "kind": "repeat",
+  "persona": "35",
+  "occ": 5,
+  "tokens": 33274
+ },
+ {
+  "pos": 144,
+  "kind": "repeat",
+  "persona": "655",
+  "occ": 7,
+  "tokens": 33457
+ },
+ {
+  "pos": 145,
+  "kind": "repeat",
+  "persona": "461",
+  "occ": 6,
+  "tokens": 33370
+ },
+ {
+  "pos": 146,
+  "kind": "repeat",
+  "persona": "19",
+  "occ": 7,
+  "tokens": 33465
+ },
+ {
+  "pos": 147,
+  "kind": "indep",
+  "persona": "52",
+  "occ": 0,
+  "tokens": 32784
+ },
+ {
+  "pos": 148,
+  "kind": "repeat",
+  "persona": "26",
+  "occ": 5,
+  "tokens": 33282
+ },
+ {
+  "pos": 149,
+  "kind": "repeat",
+  "persona": "48",
+  "occ": 7,
+  "tokens": 33472
+ },
+ {
+  "pos": 150,
+  "kind": "repeat",
+  "persona": "14",
+  "occ": 5,
+  "tokens": 33274
+ },
+ {
+  "pos": 151,
+  "kind": "repeat",
+  "persona": "38",
+  "occ": 7,
+  "tokens": 33470
+ },
+ {
+  "pos": 152,
+  "kind": "repeat",
+  "persona": "76",
+  "occ": 5,
+  "tokens": 33273
+ },
+ {
+  "pos": 153,
+  "kind": "repeat",
+  "persona": "3",
+  "occ": 6,
+  "tokens": 33372
+ },
+ {
+  "pos": 154,
+  "kind": "repeat",
+  "persona": "46",
+  "occ": 5,
+  "tokens": 33252
+ },
+ {
+  "pos": 155,
+  "kind": "repeat",
+  "persona": "25",
+  "occ": 6,
+  "tokens": 33355
+ },
+ {
+  "pos": 156,
+  "kind": "repeat",
+  "persona": "90",
+  "occ": 7,
+  "tokens": 33459
+ },
+ {
+  "pos": 157,
+  "kind": "repeat",
+  "persona": "20",
+  "occ": 6,
+  "tokens": 33358
+ },
+ {
+  "pos": 158,
+  "kind": "repeat",
+  "persona": "32",
+  "occ": 6,
+  "tokens": 33362
+ },
+ {
+  "pos": 159,
+  "kind": "repeat",
+  "persona": "36",
+  "occ": 6,
+  "tokens": 33360
+ },
+ {
+  "pos": 160,
+  "kind": "repeat",
+  "persona": "10",
+  "occ": 6,
+  "tokens": 33361
+ },
+ {
+  "pos": 161,
+  "kind": "repeat",
+  "persona": "70",
+  "occ": 7,
+  "tokens": 33474
+ },
+ {
+  "pos": 162,
+  "kind": "indep",
+  "persona": "5",
+  "occ": 0,
+  "tokens": 32767
+ },
+ {
+  "pos": 163,
+  "kind": "repeat",
+  "persona": "2",
+  "occ": 6,
+  "tokens": 33358
+ },
+ {
+  "pos": 164,
+  "kind": "repeat",
+  "persona": "108",
+  "occ": 8,
+  "tokens": 33562
+ },
+ {
+  "pos": 165,
+  "kind": "repeat",
+  "persona": "35",
+  "occ": 6,
+  "tokens": 33386
+ },
+ {
+  "pos": 166,
+  "kind": "repeat",
+  "persona": "655",
+  "occ": 8,
+  "tokens": 33559
+ },
+ {
+  "pos": 167,
+  "kind": "repeat",
+  "persona": "461",
+  "occ": 7,
+  "tokens": 33485
+ },
+ {
+  "pos": 168,
+  "kind": "repeat",
+  "persona": "19",
+  "occ": 8,
+  "tokens": 33574
+ },
+ {
+  "pos": 169,
+  "kind": "repeat",
+  "persona": "26",
+  "occ": 6,
+  "tokens": 33382
+ },
+ {
+  "pos": 170,
+  "kind": "repeat",
+  "persona": "48",
+  "occ": 8,
+  "tokens": 33572
+ },
+ {
+  "pos": 171,
+  "kind": "repeat",
+  "persona": "14",
+  "occ": 6,
+  "tokens": 33371
+ },
+ {
+  "pos": 172,
+  "kind": "repeat",
+  "persona": "38",
+  "occ": 8,
+  "tokens": 33573
+ },
+ {
+  "pos": 173,
+  "kind": "repeat",
+  "persona": "76",
+  "occ": 6,
+  "tokens": 33383
+ },
+ {
+  "pos": 174,
+  "kind": "repeat",
+  "persona": "3",
+  "occ": 7,
+  "tokens": 33470
+ },
+ {
+  "pos": 175,
+  "kind": "repeat",
+  "persona": "46",
+  "occ": 6,
+  "tokens": 33358
+ },
+ {
+  "pos": 176,
+  "kind": "repeat",
+  "persona": "25",
+  "occ": 7,
+  "tokens": 33459
+ },
+ {
+  "pos": 177,
+  "kind": "indep",
+  "persona": "55",
+  "occ": 0,
+  "tokens": 32769
+ },
+ {
+  "pos": 178,
+  "kind": "repeat",
+  "persona": "90",
+  "occ": 8,
+  "tokens": 33561
+ },
+ {
+  "pos": 179,
+  "kind": "repeat",
+  "persona": "20",
+  "occ": 7,
+  "tokens": 33461
+ },
+ {
+  "pos": 180,
+  "kind": "repeat",
+  "persona": "32",
+  "occ": 7,
+  "tokens": 33473
+ },
+ {
+  "pos": 181,
+  "kind": "repeat",
+  "persona": "36",
+  "occ": 7,
+  "tokens": 33467
+ },
+ {
+  "pos": 182,
+  "kind": "repeat",
+  "persona": "10",
+  "occ": 7,
+  "tokens": 33475
+ },
+ {
+  "pos": 183,
+  "kind": "repeat",
+  "persona": "70",
+  "occ": 8,
+  "tokens": 33574
+ },
+ {
+  "pos": 184,
+  "kind": "repeat",
+  "persona": "2",
+  "occ": 7,
+  "tokens": 33470
+ },
+ {
+  "pos": 185,
+  "kind": "repeat",
+  "persona": "108",
+  "occ": 9,
+  "tokens": 33661
+ },
+ {
+  "pos": 186,
+  "kind": "repeat",
+  "persona": "35",
+  "occ": 7,
+  "tokens": 33478
+ },
+ {
+  "pos": 187,
+  "kind": "repeat",
+  "persona": "461",
+  "occ": 8,
+  "tokens": 33583
+ },
+ {
+  "pos": 188,
+  "kind": "repeat",
+  "persona": "19",
+  "occ": 9,
+  "tokens": 33670
+ },
+ {
+  "pos": 189,
+  "kind": "repeat",
+  "persona": "26",
+  "occ": 7,
+  "tokens": 33483
+ },
+ {
+  "pos": 190,
+  "kind": "repeat",
+  "persona": "48",
+  "occ": 9,
+  "tokens": 33670
+ },
+ {
+  "pos": 191,
+  "kind": "repeat",
+  "persona": "14",
+  "occ": 7,
+  "tokens": 33468
+ },
+ {
+  "pos": 192,
+  "kind": "repeat",
+  "persona": "38",
+  "occ": 9,
+  "tokens": 33666
+ },
+ {
+  "pos": 193,
+  "kind": "indep",
+  "persona": "56",
+  "occ": 0,
+  "tokens": 32776
+ },
+ {
+  "pos": 194,
+  "kind": "repeat",
+  "persona": "76",
+  "occ": 7,
+  "tokens": 33486
+ },
+ {
+  "pos": 195,
+  "kind": "repeat",
+  "persona": "3",
+  "occ": 8,
+  "tokens": 33571
+ },
+ {
+  "pos": 196,
+  "kind": "repeat",
+  "persona": "46",
+  "occ": 7,
+  "tokens": 33452
+ },
+ {
+  "pos": 197,
+  "kind": "repeat",
+  "persona": "25",
+  "occ": 8,
+  "tokens": 33554
+ },
+ {
+  "pos": 198,
+  "kind": "repeat",
+  "persona": "90",
+  "occ": 9,
+  "tokens": 33660
+ },
+ {
+  "pos": 199,
+  "kind": "repeat",
+  "persona": "20",
+  "occ": 8,
+  "tokens": 33557
+ },
+ {
+  "pos": 200,
+  "kind": "repeat",
+  "persona": "32",
+  "occ": 8,
+  "tokens": 33570
+ },
+ {
+  "pos": 201,
+  "kind": "repeat",
+  "persona": "36",
+  "occ": 8,
+  "tokens": 33559
+ },
+ {
+  "pos": 202,
+  "kind": "repeat",
+  "persona": "10",
+  "occ": 8,
+  "tokens": 33571
+ },
+ {
+  "pos": 203,
+  "kind": "outlier",
+  "persona": "49",
+  "occ": 1,
+  "tokens": 32856
+ },
+ {
+  "pos": 204,
+  "kind": "repeat",
+  "persona": "2",
+  "occ": 8,
+  "tokens": 33585
+ },
+ {
+  "pos": 205,
+  "kind": "repeat",
+  "persona": "35",
+  "occ": 8,
+  "tokens": 33573
+ },
+ {
+  "pos": 206,
+  "kind": "repeat",
+  "persona": "26",
+  "occ": 8,
+  "tokens": 33569
+ },
+ {
+  "pos": 207,
+  "kind": "repeat",
+  "persona": "14",
+  "occ": 8,
+  "tokens": 33568
+ },
+ {
+  "pos": 208,
+  "kind": "indep",
+  "persona": "43",
+  "occ": 0,
+  "tokens": 32763
+ },
+ {
+  "pos": 209,
+  "kind": "repeat",
+  "persona": "76",
+  "occ": 8,
+  "tokens": 33586
+ },
+ {
+  "pos": 210,
+  "kind": "repeat",
+  "persona": "3",
+  "occ": 9,
+  "tokens": 33670
+ },
+ {
+  "pos": 211,
+  "kind": "repeat",
+  "persona": "46",
+  "occ": 8,
+  "tokens": 33547
+ },
+ {
+  "pos": 212,
+  "kind": "repeat",
+  "persona": "20",
+  "occ": 9,
+  "tokens": 33667
+ },
+ {
+  "pos": 213,
+  "kind": "repeat",
+  "persona": "32",
+  "occ": 9,
+  "tokens": 33670
+ },
+ {
+  "pos": 214,
+  "kind": "repeat",
+  "persona": "36",
+  "occ": 9,
+  "tokens": 33660
+ },
+ {
+  "pos": 215,
+  "kind": "repeat",
+  "persona": "10",
+  "occ": 9,
+  "tokens": 33675
+ },
+ {
+  "pos": 216,
+  "kind": "head",
+  "persona": "73",
+  "occ": 0,
+  "tokens": 32776
+ },
+ {
+  "pos": 217,
+  "kind": "head",
+  "persona": "9",
+  "occ": 0,
+  "tokens": 32772
+ }
+]
