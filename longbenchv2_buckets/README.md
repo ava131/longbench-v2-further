@@ -1,32 +1,23 @@
-# LongBench v2 长度分桶（Qwen3.8-27B tokenizer）
+# LongBench v2 长度分组（Qwen3.8-27B tokenizer，不截断）
 
-从 LongBench v2 官方 `data.json`（503 条）中按 **Qwen3.8-27B** 的 tokenizer 切出四组固定长度样本。
+从 LongBench v2 官方 `data.json`（503 条）中按 **Qwen/Qwen3.8-27B** 的 tokenizer 选样，**保持原文，不做截断**。
 
-| 文件 | 条数 | token 范围 | 目标 |
-|---|---:|---|---:|
-| `lt32k_1.jsonl` | 1 | 32,535 | < 32k |
-| `32k_42.jsonl` | 42 | 32,766 – 32,768 | 32k |
-| `36k_42.jsonl` | 42 | 36,864 | 36k |
-| `64k_42.jsonl` | 42 | 65,536 | 64k |
+| 文件 | 条数 | token 范围 |
+|---|---:|---|
+| `lt32k_10.jsonl` | 10 | 22,340 – 24,502 |
+| `32k_42.jsonl` | 42 | 26,012 – 34,214 |
+| `36k_42.jsonl` | 42 | 24,950 – 48,265 |
+| `64k_42.jsonl` | 42 | 53,238 – 77,941 |
 
-## 选样与截断
+合计 **136 条**，四组之间样本不重复。
 
-- 长度用 `Qwen/Qwen3.8-27B` 的 `tokenizer.json` 计算；
-- 每个目标长度选 42 条（`lt32k` 选 1 条）**原始长度 ≥ 目标**的样本，取最接近目标的；
-- `context` 截断到不超过目标 token 数（字符级二分微调，尽量贴近目标）；
-- 四个桶之间样本不重复。
+## 选样说明
+
+- 长度用 `Qwen/Qwen3.8-27B` tokenizer 计算；
+- 按“距离目标最近”全局贪心分配，保证四组互不重复；
+- **没有截断**，`context` 是原始全文；
+- 由于原始分布稀疏（32k–49k 区间只有 44 条），`32k_42` 与 `36k_42` 的实际范围会比目标宽，这是不截断的必然结果。
 
 ## 字段
 
-保留 LongBench v2 原字段：`_id / domain / sub_domain / difficulty / length / question / choice_A-D / answer / context`，另加：
-
-| 字段 | 含义 |
-|---|---|
-| `_tokens` | 截断后的 token 数 |
-| `_source_tokens` | 原始 context 的 token 数 |
-
-## 说明
-
-- 这是真实 LongBench v2 样本，`answer` / 选项保留原值，可用于准确率评测；
-- 截断后的 `context` 是原文前缀，题目/选项未改；
-- token 数不含 system prompt 与 chat template。
+保留 LongBench v2 原字段，另加 `_tokens`（该样本的 token 数）。
