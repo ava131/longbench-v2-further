@@ -76,11 +76,11 @@ if __name__=='__main__':
     print('dialogs',len(ids))
     # 50%: 100 主体 + 15 特殊 = 230 条
     p50=ids[:100]
-    seq50=build_main([20,24,26,30], p50)
+    seq50=build_main([6,8,12,16,18,20,20], p50)
     specials50=[(ids[100+k],d) for k,d in enumerate([5,5,5,5,10,10,10,10,10,10,10,10,50,100,180])]
     seq50=insert_pairs(seq50, specials50)
     for d in (180,100,50): append_gap(seq50,d)
-    emit(seq50, dialogs, '32k_230_hit50')
+    emit(seq50, dialogs, '32k_233_hit50_mean20')
     # 30%: 5 块 × (26 首次 + 12 重复) + 4 特殊 = 198 条
     seq30=[]; base=0
     for b in range(5):
