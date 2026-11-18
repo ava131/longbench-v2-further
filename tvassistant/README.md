@@ -39,3 +39,11 @@
 - 这是缓存/长上下文性能测试数据，`answer`、选项为空占位；
 - 对话由模型生成，剧名、天气、股价等数字不保证实时准确；
 - token 数用 Qwen tokenizer 统计，不含 system prompt 与 chat template。
+
+## turns 格式
+
+`to_turns.py` 把每个数据集的对话转成 issue 里的格式：`turns.jsonl` 每行一个 JSON 数组，元素为 `{"content": ..., "role": "user"|"assistant"}`。
+
+```bash
+python to_turns.py --all
+```
