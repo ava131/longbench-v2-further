@@ -47,3 +47,11 @@
 ```bash
 python to_turns.py --all
 ```
+
+## turns 格式（已原地转换）
+
+`gsm8k.jsonl` 的 `question`、`longbenchv2.jsonl` 的 `context` 已从纯文本改为 turns 数组：
+
+```json
+[{"content": "...", "role": "user"}, {"content": "...", "role": "assistant"}, ...]
+```

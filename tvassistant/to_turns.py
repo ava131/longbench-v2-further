@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
-"""把 TV Assistant 的对话文本转成 issue 里的格式：
-每行一个 JSON 数组，元素为 {"content": ..., "role": "user"|"assistant"}。
+"""把 TV 数据集的 gsm8k.jsonl / longbenchv2.jsonl 原地改成 issue 的 turns 格式。
+
+- gsm8k:    {"question": [{"content":..., "role":...}, ...], "answer": ""}
+- v2:       其他字段不变，"context" 变成同样的 turns 数组
 
 用法：
-    python to_turns.py --dir 32k_218
     python to_turns.py --all
+    python to_turns.py --dir 32k_218
 """
 import argparse, json, re
 from pathlib import Path
@@ -23,21 +25,27 @@ def parse(text):
 
 def convert(d):
     d=Path(d)
-    src=d/'longbenchv2.jsonl'
-    if not src.exists(): src=d/'gsm8k.jsonl'
-    rows=[json.loads(l) for l in src.open(encoding='utf-8')]
-    convs=[]
-    for r in rows:
-        text=r.get('context') or r.get('question')
-        convs.append(parse(text))
-    with (d/'turns.jsonl').open('w',encoding='utf-8') as f:
-        for c in convs: f.write(json.dumps(c,ensure_ascii=False)+'\n')
-    print(d.name,'conversations',len(convs),'turns',sum(len(c) for c in convs))
+    g=d/'gsm8k.jsonl'
+    if g.exists():
+        rows=[json.loads(l) for l in g.open(encoding='utf-8')]
+        out=[]
+        for r in rows:
+            q=r['question']
+            out.append({'question':q if isinstance(q,list) else parse(q),'answer':r.get('answer','')})
+        with g.open('w',encoding='utf-8') as f:
+            for r in out: f.write(json.dumps(r,ensure_ascii=False)+'\n')
+    v=d/'longbenchv2.jsonl'
+    if v.exists():
+        rows=[json.loads(l) for l in v.open(encoding='utf-8')]
+        with v.open('w',encoding='utf-8') as f:
+            for r in rows:
+                if not isinstance(r['context'],list): r['context']=parse(r['context'])
+                f.write(json.dumps(r,ensure_ascii=False)+'\n')
+    print(d.name,'converted')
 
 if __name__=='__main__':
     ap=argparse.ArgumentParser()
-    ap.add_argument('--dir')
-    ap.add_argument('--all',action='store_true')
+    ap.add_argument('--dir'); ap.add_argument('--all',action='store_true')
     args=ap.parse_args()
     base=Path(__file__).parent
     if args.all:
