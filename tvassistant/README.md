@@ -50,8 +50,10 @@ python to_turns.py --all
 
 ## turns 格式（已原地转换）
 
-`gsm8k.jsonl` 的 `question`、`longbenchv2.jsonl` 的 `context` 已从纯文本改为 turns 数组：
+`gsm8k.jsonl` 的 `question`、`longbenchv2.jsonl` 的 `context` 已改为**字符串**，内容是一个 turns 数组的 JSON 文本：
 
-```json
-[{"content": "...", "role": "user"}, {"content": "...", "role": "assistant"}, ...]
 ```
+[{"content":"...","role":"user"},{"content":"...","role":"assistant"},...]
+```
+
+对 AISBench 来说它是普通字符串，`{context}` / `{question}` 会原样插入。
