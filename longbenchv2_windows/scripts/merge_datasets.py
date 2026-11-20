@@ -84,8 +84,11 @@ def main():
     if dup: print(f'警告: base 和 add 有 {len(dup)} 个重复 _id')
 
     out=a+b
-    with open(args.out,'w',encoding='utf-8') as f:
-        for r in out: f.write(json.dumps(r,ensure_ascii=False)+'\n')
+    if args.out.endswith('.json'):
+        json.dump(out, open(args.out,'w',encoding='utf-8'), ensure_ascii=False)
+    else:
+        with open(args.out,'w',encoding='utf-8') as f:
+            for r in out: f.write(json.dumps(r,ensure_ascii=False)+'\n')
     print(f'合并: {len(a)} + {len(b)} = {len(out)} -> {args.out}')
 
 if __name__=='__main__': main()
