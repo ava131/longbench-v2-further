@@ -82,3 +82,11 @@
 /tmp/pmvenv/bin/python /tmp/build_lb2_windows.py    # 计算 + 生成（约 70s）
 /tmp/pmvenv/bin/python /tmp/verify_lb2_windows.py   # 独立自检
 ```
+
+## 130 条扩增版（重复 + 散列）
+
+`longbenchv2_130.json` / `.jsonl`：从上面 56 条扩到 130 条。
+
+- 每条至少出现 2 次，其中 18 条出现 3 次；
+- 顺序打散，同一 `_id` 的最小间隔 6，中位间隔 32；
+- 新增 `_copy` 字段表示第几次出现。
