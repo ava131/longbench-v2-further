@@ -1,0 +1,1530 @@
+[
+ {
+  "pos": 0,
+  "dialogue_slot": 0,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65871,
+  "source": "000.json"
+ },
+ {
+  "pos": 1,
+  "dialogue_slot": 1,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65536,
+  "source": "001.json"
+ },
+ {
+  "pos": 2,
+  "dialogue_slot": 2,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65328,
+  "source": "002.json"
+ },
+ {
+  "pos": 3,
+  "dialogue_slot": 3,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65501,
+  "source": "003.json"
+ },
+ {
+  "pos": 4,
+  "dialogue_slot": 4,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65995,
+  "source": "004.json"
+ },
+ {
+  "pos": 5,
+  "dialogue_slot": 5,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65988,
+  "source": "005.json"
+ },
+ {
+  "pos": 6,
+  "dialogue_slot": 6,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65999,
+  "source": "006.json"
+ },
+ {
+  "pos": 7,
+  "dialogue_slot": 7,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65818,
+  "source": "007.json"
+ },
+ {
+  "pos": 8,
+  "dialogue_slot": 8,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65285,
+  "source": "008.json"
+ },
+ {
+  "pos": 9,
+  "dialogue_slot": 9,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65306,
+  "source": "009.json"
+ },
+ {
+  "pos": 10,
+  "dialogue_slot": 10,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65979,
+  "source": "010.json"
+ },
+ {
+  "pos": 11,
+  "dialogue_slot": 11,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65333,
+  "source": "011.json"
+ },
+ {
+  "pos": 12,
+  "dialogue_slot": 12,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65986,
+  "source": "012.json"
+ },
+ {
+  "pos": 13,
+  "dialogue_slot": 13,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 66000,
+  "source": "013.json"
+ },
+ {
+  "pos": 14,
+  "dialogue_slot": 14,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 64447,
+  "source": "014.json"
+ },
+ {
+  "pos": 15,
+  "dialogue_slot": 15,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65958,
+  "source": "015.json"
+ },
+ {
+  "pos": 16,
+  "dialogue_slot": 1,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 65536,
+  "source": "001.json"
+ },
+ {
+  "pos": 17,
+  "dialogue_slot": 16,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65164,
+  "source": "016.json"
+ },
+ {
+  "pos": 18,
+  "dialogue_slot": 17,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65889,
+  "source": "017.json"
+ },
+ {
+  "pos": 19,
+  "dialogue_slot": 4,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 65995,
+  "source": "004.json"
+ },
+ {
+  "pos": 20,
+  "dialogue_slot": 6,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 65999,
+  "source": "006.json"
+ },
+ {
+  "pos": 21,
+  "dialogue_slot": 5,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 65988,
+  "source": "005.json"
+ },
+ {
+  "pos": 22,
+  "dialogue_slot": 18,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65893,
+  "source": "018.json"
+ },
+ {
+  "pos": 23,
+  "dialogue_slot": 7,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 65818,
+  "source": "007.json"
+ },
+ {
+  "pos": 24,
+  "dialogue_slot": 9,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 65306,
+  "source": "009.json"
+ },
+ {
+  "pos": 25,
+  "dialogue_slot": 19,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 64473,
+  "source": "019.json"
+ },
+ {
+  "pos": 26,
+  "dialogue_slot": 20,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65967,
+  "source": "020.json"
+ },
+ {
+  "pos": 27,
+  "dialogue_slot": 12,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 65986,
+  "source": "012.json"
+ },
+ {
+  "pos": 28,
+  "dialogue_slot": 13,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 66000,
+  "source": "013.json"
+ },
+ {
+  "pos": 29,
+  "dialogue_slot": 11,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 65333,
+  "source": "011.json"
+ },
+ {
+  "pos": 30,
+  "dialogue_slot": 14,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 64447,
+  "source": "014.json"
+ },
+ {
+  "pos": 31,
+  "dialogue_slot": 15,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 65958,
+  "source": "015.json"
+ },
+ {
+  "pos": 32,
+  "dialogue_slot": 17,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 65889,
+  "source": "017.json"
+ },
+ {
+  "pos": 33,
+  "dialogue_slot": 16,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 65164,
+  "source": "016.json"
+ },
+ {
+  "pos": 34,
+  "dialogue_slot": 21,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65665,
+  "source": "021.json"
+ },
+ {
+  "pos": 35,
+  "dialogue_slot": 22,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65982,
+  "source": "022.json"
+ },
+ {
+  "pos": 36,
+  "dialogue_slot": 23,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65914,
+  "source": "023.json"
+ },
+ {
+  "pos": 37,
+  "dialogue_slot": 24,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65992,
+  "source": "024.json"
+ },
+ {
+  "pos": 38,
+  "dialogue_slot": 25,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 64895,
+  "source": "025.json"
+ },
+ {
+  "pos": 39,
+  "dialogue_slot": 26,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65991,
+  "source": "026.json"
+ },
+ {
+  "pos": 40,
+  "dialogue_slot": 27,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65993,
+  "source": "027.json"
+ },
+ {
+  "pos": 41,
+  "dialogue_slot": 28,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65933,
+  "source": "028.json"
+ },
+ {
+  "pos": 42,
+  "dialogue_slot": 19,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 64473,
+  "source": "019.json"
+ },
+ {
+  "pos": 43,
+  "dialogue_slot": 29,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 64871,
+  "source": "029.json"
+ },
+ {
+  "pos": 44,
+  "dialogue_slot": 30,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65515,
+  "source": "030.json"
+ },
+ {
+  "pos": 45,
+  "dialogue_slot": 31,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 64808,
+  "source": "031.json"
+ },
+ {
+  "pos": 46,
+  "dialogue_slot": 32,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65981,
+  "source": "032.json"
+ },
+ {
+  "pos": 47,
+  "dialogue_slot": 33,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65972,
+  "source": "033.json"
+ },
+ {
+  "pos": 48,
+  "dialogue_slot": 34,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65994,
+  "source": "034.json"
+ },
+ {
+  "pos": 49,
+  "dialogue_slot": 21,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 65665,
+  "source": "021.json"
+ },
+ {
+  "pos": 50,
+  "dialogue_slot": 22,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 65982,
+  "source": "022.json"
+ },
+ {
+  "pos": 51,
+  "dialogue_slot": 35,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65114,
+  "source": "035.json"
+ },
+ {
+  "pos": 52,
+  "dialogue_slot": 25,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 64895,
+  "source": "025.json"
+ },
+ {
+  "pos": 53,
+  "dialogue_slot": 24,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 65992,
+  "source": "024.json"
+ },
+ {
+  "pos": 54,
+  "dialogue_slot": 36,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 64811,
+  "source": "036.json"
+ },
+ {
+  "pos": 55,
+  "dialogue_slot": 27,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 65993,
+  "source": "027.json"
+ },
+ {
+  "pos": 56,
+  "dialogue_slot": 37,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65223,
+  "source": "037.json"
+ },
+ {
+  "pos": 57,
+  "dialogue_slot": 38,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65900,
+  "source": "038.json"
+ },
+ {
+  "pos": 58,
+  "dialogue_slot": 39,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65978,
+  "source": "039.json"
+ },
+ {
+  "pos": 59,
+  "dialogue_slot": 26,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 65991,
+  "source": "026.json"
+ },
+ {
+  "pos": 60,
+  "dialogue_slot": 31,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 64808,
+  "source": "031.json"
+ },
+ {
+  "pos": 61,
+  "dialogue_slot": 40,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65273,
+  "source": "040.json"
+ },
+ {
+  "pos": 62,
+  "dialogue_slot": 33,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 65972,
+  "source": "033.json"
+ },
+ {
+  "pos": 63,
+  "dialogue_slot": 32,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 65981,
+  "source": "032.json"
+ },
+ {
+  "pos": 64,
+  "dialogue_slot": 41,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65592,
+  "source": "041.json"
+ },
+ {
+  "pos": 65,
+  "dialogue_slot": 42,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65958,
+  "source": "042.json"
+ },
+ {
+  "pos": 66,
+  "dialogue_slot": 43,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65991,
+  "source": "043.json"
+ },
+ {
+  "pos": 67,
+  "dialogue_slot": 44,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65985,
+  "source": "044.json"
+ },
+ {
+  "pos": 68,
+  "dialogue_slot": 35,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 65114,
+  "source": "035.json"
+ },
+ {
+  "pos": 69,
+  "dialogue_slot": 45,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65993,
+  "source": "045.json"
+ },
+ {
+  "pos": 70,
+  "dialogue_slot": 46,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65971,
+  "source": "046.json"
+ },
+ {
+  "pos": 71,
+  "dialogue_slot": 47,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65995,
+  "source": "047.json"
+ },
+ {
+  "pos": 72,
+  "dialogue_slot": 48,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65399,
+  "source": "048.json"
+ },
+ {
+  "pos": 73,
+  "dialogue_slot": 39,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 65978,
+  "source": "039.json"
+ },
+ {
+  "pos": 74,
+  "dialogue_slot": 37,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 65223,
+  "source": "037.json"
+ },
+ {
+  "pos": 75,
+  "dialogue_slot": 49,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65983,
+  "source": "049.json"
+ },
+ {
+  "pos": 76,
+  "dialogue_slot": 40,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 65273,
+  "source": "040.json"
+ },
+ {
+  "pos": 77,
+  "dialogue_slot": 50,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 64717,
+  "source": "050.json"
+ },
+ {
+  "pos": 78,
+  "dialogue_slot": 51,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65973,
+  "source": "051.json"
+ },
+ {
+  "pos": 79,
+  "dialogue_slot": 52,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65729,
+  "source": "052.json"
+ },
+ {
+  "pos": 80,
+  "dialogue_slot": 53,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65993,
+  "source": "053.json"
+ },
+ {
+  "pos": 81,
+  "dialogue_slot": 43,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 65991,
+  "source": "043.json"
+ },
+ {
+  "pos": 82,
+  "dialogue_slot": 44,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 65985,
+  "source": "044.json"
+ },
+ {
+  "pos": 83,
+  "dialogue_slot": 45,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 65993,
+  "source": "045.json"
+ },
+ {
+  "pos": 84,
+  "dialogue_slot": 54,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65980,
+  "source": "054.json"
+ },
+ {
+  "pos": 85,
+  "dialogue_slot": 55,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65987,
+  "source": "055.json"
+ },
+ {
+  "pos": 86,
+  "dialogue_slot": 56,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65385,
+  "source": "056.json"
+ },
+ {
+  "pos": 87,
+  "dialogue_slot": 57,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65974,
+  "source": "057.json"
+ },
+ {
+  "pos": 88,
+  "dialogue_slot": 58,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65946,
+  "source": "058.json"
+ },
+ {
+  "pos": 89,
+  "dialogue_slot": 59,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 64716,
+  "source": "059.json"
+ },
+ {
+  "pos": 90,
+  "dialogue_slot": 49,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 65983,
+  "source": "049.json"
+ },
+ {
+  "pos": 91,
+  "dialogue_slot": 60,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65977,
+  "source": "060.json"
+ },
+ {
+  "pos": 92,
+  "dialogue_slot": 61,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 64568,
+  "source": "061.json"
+ },
+ {
+  "pos": 93,
+  "dialogue_slot": 62,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65459,
+  "source": "062.json"
+ },
+ {
+  "pos": 94,
+  "dialogue_slot": 52,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 65729,
+  "source": "052.json"
+ },
+ {
+  "pos": 95,
+  "dialogue_slot": 63,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65992,
+  "source": "063.json"
+ },
+ {
+  "pos": 96,
+  "dialogue_slot": 64,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65981,
+  "source": "064.json"
+ },
+ {
+  "pos": 97,
+  "dialogue_slot": 65,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65995,
+  "source": "065.json"
+ },
+ {
+  "pos": 98,
+  "dialogue_slot": 66,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 64537,
+  "source": "066.json"
+ },
+ {
+  "pos": 99,
+  "dialogue_slot": 67,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 64524,
+  "source": "067.json"
+ },
+ {
+  "pos": 100,
+  "dialogue_slot": 68,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65998,
+  "source": "068.json"
+ },
+ {
+  "pos": 101,
+  "dialogue_slot": 69,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 64583,
+  "source": "069.json"
+ },
+ {
+  "pos": 102,
+  "dialogue_slot": 2,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 65328,
+  "source": "002.json"
+ },
+ {
+  "pos": 103,
+  "dialogue_slot": 57,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 65974,
+  "source": "057.json"
+ },
+ {
+  "pos": 104,
+  "dialogue_slot": 58,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 65946,
+  "source": "058.json"
+ },
+ {
+  "pos": 105,
+  "dialogue_slot": 70,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65938,
+  "source": "070.json"
+ },
+ {
+  "pos": 106,
+  "dialogue_slot": 64,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 65981,
+  "source": "064.json"
+ },
+ {
+  "pos": 107,
+  "dialogue_slot": 71,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65983,
+  "source": "071.json"
+ },
+ {
+  "pos": 108,
+  "dialogue_slot": 72,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65986,
+  "source": "072.json"
+ },
+ {
+  "pos": 109,
+  "dialogue_slot": 73,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65010,
+  "source": "074.json"
+ },
+ {
+  "pos": 110,
+  "dialogue_slot": 74,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 66000,
+  "source": "075.json"
+ },
+ {
+  "pos": 111,
+  "dialogue_slot": 75,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65994,
+  "source": "077.json"
+ },
+ {
+  "pos": 112,
+  "dialogue_slot": 76,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65987,
+  "source": "082.json"
+ },
+ {
+  "pos": 113,
+  "dialogue_slot": 77,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 64716,
+  "source": "083.json"
+ },
+ {
+  "pos": 114,
+  "dialogue_slot": 78,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 64535,
+  "source": "084.json"
+ },
+ {
+  "pos": 115,
+  "dialogue_slot": 69,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 64583,
+  "source": "069.json"
+ },
+ {
+  "pos": 116,
+  "dialogue_slot": 79,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65709,
+  "source": "085.json"
+ },
+ {
+  "pos": 117,
+  "dialogue_slot": 80,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65973,
+  "source": "086.json"
+ },
+ {
+  "pos": 118,
+  "dialogue_slot": 81,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 64827,
+  "source": "087.json"
+ },
+ {
+  "pos": 119,
+  "dialogue_slot": 82,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65142,
+  "source": "088.json"
+ },
+ {
+  "pos": 120,
+  "dialogue_slot": 83,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 64422,
+  "source": "089.json"
+ },
+ {
+  "pos": 121,
+  "dialogue_slot": 84,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65089,
+  "source": "090.json"
+ },
+ {
+  "pos": 122,
+  "dialogue_slot": 71,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 65983,
+  "source": "071.json"
+ },
+ {
+  "pos": 123,
+  "dialogue_slot": 72,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 65986,
+  "source": "072.json"
+ },
+ {
+  "pos": 124,
+  "dialogue_slot": 85,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 64578,
+  "source": "091.json"
+ },
+ {
+  "pos": 125,
+  "dialogue_slot": 74,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 66000,
+  "source": "075.json"
+ },
+ {
+  "pos": 126,
+  "dialogue_slot": 73,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 65010,
+  "source": "074.json"
+ },
+ {
+  "pos": 127,
+  "dialogue_slot": 75,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 65994,
+  "source": "077.json"
+ },
+ {
+  "pos": 128,
+  "dialogue_slot": 86,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 66000,
+  "source": "092.json"
+ },
+ {
+  "pos": 129,
+  "dialogue_slot": 87,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65220,
+  "source": "093.json"
+ },
+ {
+  "pos": 130,
+  "dialogue_slot": 88,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65860,
+  "source": "094.json"
+ },
+ {
+  "pos": 131,
+  "dialogue_slot": 89,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65213,
+  "source": "095.json"
+ },
+ {
+  "pos": 132,
+  "dialogue_slot": 79,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 65709,
+  "source": "085.json"
+ },
+ {
+  "pos": 133,
+  "dialogue_slot": 81,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 64827,
+  "source": "087.json"
+ },
+ {
+  "pos": 134,
+  "dialogue_slot": 54,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 65980,
+  "source": "054.json"
+ },
+ {
+  "pos": 135,
+  "dialogue_slot": 82,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 65142,
+  "source": "088.json"
+ },
+ {
+  "pos": 136,
+  "dialogue_slot": 84,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 65089,
+  "source": "090.json"
+ },
+ {
+  "pos": 137,
+  "dialogue_slot": 90,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65274,
+  "source": "096.json"
+ },
+ {
+  "pos": 138,
+  "dialogue_slot": 91,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 64722,
+  "source": "097.json"
+ },
+ {
+  "pos": 139,
+  "dialogue_slot": 92,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65969,
+  "source": "098.json"
+ },
+ {
+  "pos": 140,
+  "dialogue_slot": 93,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65906,
+  "source": "099.json"
+ },
+ {
+  "pos": 141,
+  "dialogue_slot": 94,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65369,
+  "source": "100.json"
+ },
+ {
+  "pos": 142,
+  "dialogue_slot": 95,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65992,
+  "source": "101.json"
+ },
+ {
+  "pos": 143,
+  "dialogue_slot": 96,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65416,
+  "source": "102.json"
+ },
+ {
+  "pos": 144,
+  "dialogue_slot": 97,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65990,
+  "source": "103.json"
+ },
+ {
+  "pos": 145,
+  "dialogue_slot": 98,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65997,
+  "source": "104.json"
+ },
+ {
+  "pos": 146,
+  "dialogue_slot": 87,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 65220,
+  "source": "093.json"
+ },
+ {
+  "pos": 147,
+  "dialogue_slot": 99,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65984,
+  "source": "105.json"
+ },
+ {
+  "pos": 148,
+  "dialogue_slot": 100,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65983,
+  "source": "106.json"
+ },
+ {
+  "pos": 149,
+  "dialogue_slot": 101,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65259,
+  "source": "107.json"
+ },
+ {
+  "pos": 150,
+  "dialogue_slot": 102,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65723,
+  "source": "108.json"
+ },
+ {
+  "pos": 151,
+  "dialogue_slot": 103,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65880,
+  "source": "109.json"
+ },
+ {
+  "pos": 152,
+  "dialogue_slot": 104,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65975,
+  "source": "110.json"
+ },
+ {
+  "pos": 153,
+  "dialogue_slot": 105,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65108,
+  "source": "111.json"
+ },
+ {
+  "pos": 154,
+  "dialogue_slot": 92,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 65969,
+  "source": "098.json"
+ },
+ {
+  "pos": 155,
+  "dialogue_slot": 93,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 65906,
+  "source": "099.json"
+ },
+ {
+  "pos": 156,
+  "dialogue_slot": 106,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65096,
+  "source": "112.json"
+ },
+ {
+  "pos": 157,
+  "dialogue_slot": 104,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 65975,
+  "source": "110.json"
+ },
+ {
+  "pos": 158,
+  "dialogue_slot": 107,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65980,
+  "source": "113.json"
+ },
+ {
+  "pos": 159,
+  "dialogue_slot": 108,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 64740,
+  "source": "114.json"
+ },
+ {
+  "pos": 160,
+  "dialogue_slot": 109,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65992,
+  "source": "115.json"
+ },
+ {
+  "pos": 161,
+  "dialogue_slot": 110,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65233,
+  "source": "116.json"
+ },
+ {
+  "pos": 162,
+  "dialogue_slot": 111,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65901,
+  "source": "117.json"
+ },
+ {
+  "pos": 163,
+  "dialogue_slot": 112,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 64822,
+  "source": "118.json"
+ },
+ {
+  "pos": 164,
+  "dialogue_slot": 113,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65979,
+  "source": "119.json"
+ },
+ {
+  "pos": 165,
+  "dialogue_slot": 114,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 64774,
+  "source": "120.json"
+ },
+ {
+  "pos": 166,
+  "dialogue_slot": 103,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 65880,
+  "source": "109.json"
+ },
+ {
+  "pos": 167,
+  "dialogue_slot": 115,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65975,
+  "source": "121.json"
+ },
+ {
+  "pos": 168,
+  "dialogue_slot": 116,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65399,
+  "source": "122.json"
+ },
+ {
+  "pos": 169,
+  "dialogue_slot": 117,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 64344,
+  "source": "123.json"
+ },
+ {
+  "pos": 170,
+  "dialogue_slot": 118,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65972,
+  "source": "124.json"
+ },
+ {
+  "pos": 171,
+  "dialogue_slot": 119,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65239,
+  "source": "125.json"
+ },
+ {
+  "pos": 172,
+  "dialogue_slot": 109,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 65992,
+  "source": "115.json"
+ },
+ {
+  "pos": 173,
+  "dialogue_slot": 107,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 65980,
+  "source": "113.json"
+ },
+ {
+  "pos": 174,
+  "dialogue_slot": 120,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65620,
+  "source": "126.json"
+ },
+ {
+  "pos": 175,
+  "dialogue_slot": 121,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 64595,
+  "source": "127.json"
+ },
+ {
+  "pos": 176,
+  "dialogue_slot": 20,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 65967,
+  "source": "020.json"
+ },
+ {
+  "pos": 177,
+  "dialogue_slot": 111,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 65901,
+  "source": "117.json"
+ },
+ {
+  "pos": 178,
+  "dialogue_slot": 122,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65965,
+  "source": "128.json"
+ },
+ {
+  "pos": 179,
+  "dialogue_slot": 123,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65970,
+  "source": "129.json"
+ },
+ {
+  "pos": 180,
+  "dialogue_slot": 124,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65958,
+  "source": "130.json"
+ },
+ {
+  "pos": 181,
+  "dialogue_slot": 125,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65987,
+  "source": "131.json"
+ },
+ {
+  "pos": 182,
+  "dialogue_slot": 126,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65976,
+  "source": "132.json"
+ },
+ {
+  "pos": 183,
+  "dialogue_slot": 127,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65797,
+  "source": "133.json"
+ },
+ {
+  "pos": 184,
+  "dialogue_slot": 128,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65984,
+  "source": "134.json"
+ },
+ {
+  "pos": 185,
+  "dialogue_slot": 129,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65996,
+  "source": "135.json"
+ },
+ {
+  "pos": 186,
+  "dialogue_slot": 130,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65989,
+  "source": "136.json"
+ },
+ {
+  "pos": 187,
+  "dialogue_slot": 131,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65604,
+  "source": "137.json"
+ },
+ {
+  "pos": 188,
+  "dialogue_slot": 132,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 65991,
+  "source": "138.json"
+ },
+ {
+  "pos": 189,
+  "dialogue_slot": 133,
+  "kind": "first",
+  "copy": 1,
+  "tokens": 64923,
+  "source": "139.json"
+ },
+ {
+  "pos": 190,
+  "dialogue_slot": 122,
+  "kind": "repeat",
+  "copy": 2,
+  "tokens": 65965,
+  "source": "128.json"
+ }
+]
