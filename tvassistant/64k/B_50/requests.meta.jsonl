@@ -12,7 +12,7 @@
   "dialogue_slot": 1,
   "kind": "first",
   "copy": 1,
-  "tokens": 65540,
+  "tokens": 65536,
   "source": "001.json"
  },
  {
@@ -20,7 +20,7 @@
   "dialogue_slot": 2,
   "kind": "first",
   "copy": 1,
-  "tokens": 65332,
+  "tokens": 65328,
   "source": "002.json"
  },
  {
@@ -28,7 +28,7 @@
   "dialogue_slot": 3,
   "kind": "first",
   "copy": 1,
-  "tokens": 65503,
+  "tokens": 65501,
   "source": "003.json"
  },
  {
@@ -36,7 +36,7 @@
   "dialogue_slot": 4,
   "kind": "first",
   "copy": 1,
-  "tokens": 65995,
+  "tokens": 65918,
   "source": "004.json"
  },
  {
@@ -68,7 +68,7 @@
   "dialogue_slot": 8,
   "kind": "first",
   "copy": 1,
-  "tokens": 65289,
+  "tokens": 65285,
   "source": "008.json"
  },
  {
@@ -76,7 +76,7 @@
   "dialogue_slot": 9,
   "kind": "first",
   "copy": 1,
-  "tokens": 65314,
+  "tokens": 65304,
   "source": "009.json"
  },
  {
@@ -92,7 +92,7 @@
   "dialogue_slot": 10,
   "kind": "first",
   "copy": 1,
-  "tokens": 65980,
+  "tokens": 65977,
   "source": "010.json"
  },
  {
@@ -100,7 +100,7 @@
   "dialogue_slot": 11,
   "kind": "first",
   "copy": 1,
-  "tokens": 65333,
+  "tokens": 65331,
   "source": "011.json"
  },
  {
@@ -116,7 +116,7 @@
   "dialogue_slot": 4,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 65995,
+  "tokens": 65918,
   "source": "004.json"
  },
  {
@@ -132,7 +132,7 @@
   "dialogue_slot": 14,
   "kind": "first",
   "copy": 1,
-  "tokens": 64446,
+  "tokens": 64443,
   "source": "014.json"
  },
  {
@@ -140,7 +140,7 @@
   "dialogue_slot": 15,
   "kind": "first",
   "copy": 1,
-  "tokens": 65962,
+  "tokens": 65958,
   "source": "015.json"
  },
  {
@@ -148,7 +148,7 @@
   "dialogue_slot": 16,
   "kind": "first",
   "copy": 1,
-  "tokens": 65171,
+  "tokens": 65080,
   "source": "016.json"
  },
  {
@@ -172,7 +172,7 @@
   "dialogue_slot": 17,
   "kind": "first",
   "copy": 1,
-  "tokens": 65868,
+  "tokens": 65863,
   "source": "017.json"
  },
  {
@@ -180,7 +180,7 @@
   "dialogue_slot": 8,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 65289,
+  "tokens": 65285,
   "source": "008.json"
  },
  {
@@ -188,7 +188,7 @@
   "dialogue_slot": 3,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 65503,
+  "tokens": 65501,
   "source": "003.json"
  },
  {
@@ -196,7 +196,7 @@
   "dialogue_slot": 9,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 65314,
+  "tokens": 65304,
   "source": "009.json"
  },
  {
@@ -204,7 +204,7 @@
   "dialogue_slot": 10,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 65980,
+  "tokens": 65977,
   "source": "010.json"
  },
  {
@@ -212,7 +212,7 @@
   "dialogue_slot": 18,
   "kind": "first",
   "copy": 1,
-  "tokens": 65896,
+  "tokens": 65891,
   "source": "018.json"
  },
  {
@@ -220,7 +220,7 @@
   "dialogue_slot": 19,
   "kind": "first",
   "copy": 1,
-  "tokens": 64476,
+  "tokens": 64473,
   "source": "019.json"
  },
  {
@@ -228,7 +228,7 @@
   "dialogue_slot": 11,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 65333,
+  "tokens": 65331,
   "source": "011.json"
  },
  {
@@ -236,7 +236,7 @@
   "dialogue_slot": 20,
   "kind": "first",
   "copy": 1,
-  "tokens": 65967,
+  "tokens": 65965,
   "source": "020.json"
  },
  {
@@ -252,7 +252,7 @@
   "dialogue_slot": 14,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 64446,
+  "tokens": 64443,
   "source": "014.json"
  },
  {
@@ -268,7 +268,7 @@
   "dialogue_slot": 16,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 65171,
+  "tokens": 65080,
   "source": "016.json"
  },
  {
@@ -276,7 +276,7 @@
   "dialogue_slot": 15,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 65962,
+  "tokens": 65958,
   "source": "015.json"
  },
  {
@@ -284,7 +284,7 @@
   "dialogue_slot": 17,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 65868,
+  "tokens": 65863,
   "source": "017.json"
  },
  {
@@ -292,7 +292,7 @@
   "dialogue_slot": 21,
   "kind": "first",
   "copy": 1,
-  "tokens": 65671,
+  "tokens": 65660,
   "source": "021.json"
  },
  {
@@ -300,7 +300,7 @@
   "dialogue_slot": 22,
   "kind": "first",
   "copy": 1,
-  "tokens": 65985,
+  "tokens": 65982,
   "source": "022.json"
  },
  {
@@ -308,7 +308,7 @@
   "dialogue_slot": 23,
   "kind": "first",
   "copy": 1,
-  "tokens": 65919,
+  "tokens": 65911,
   "source": "023.json"
  },
  {
@@ -324,7 +324,7 @@
   "dialogue_slot": 18,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 65896,
+  "tokens": 65891,
   "source": "018.json"
  },
  {
@@ -332,7 +332,7 @@
   "dialogue_slot": 25,
   "kind": "first",
   "copy": 1,
-  "tokens": 64905,
+  "tokens": 64863,
   "source": "025.json"
  },
  {
@@ -340,7 +340,7 @@
   "dialogue_slot": 19,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 64476,
+  "tokens": 64473,
   "source": "019.json"
  },
  {
@@ -348,7 +348,7 @@
   "dialogue_slot": 26,
   "kind": "first",
   "copy": 1,
-  "tokens": 65992,
+  "tokens": 65988,
   "source": "026.json"
  },
  {
@@ -356,7 +356,7 @@
   "dialogue_slot": 20,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 65967,
+  "tokens": 65965,
   "source": "020.json"
  },
  {
@@ -380,7 +380,7 @@
   "dialogue_slot": 29,
   "kind": "first",
   "copy": 1,
-  "tokens": 64867,
+  "tokens": 64861,
   "source": "029.json"
  },
  {
@@ -388,7 +388,7 @@
   "dialogue_slot": 30,
   "kind": "first",
   "copy": 1,
-  "tokens": 65516,
+  "tokens": 65513,
   "source": "030.json"
  },
  {
@@ -412,7 +412,7 @@
   "dialogue_slot": 22,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 65985,
+  "tokens": 65982,
   "source": "022.json"
  },
  {
@@ -420,7 +420,7 @@
   "dialogue_slot": 2,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 65332,
+  "tokens": 65328,
   "source": "002.json"
  },
  {
@@ -428,7 +428,7 @@
   "dialogue_slot": 21,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 65671,
+  "tokens": 65660,
   "source": "021.json"
  },
  {
@@ -444,7 +444,7 @@
   "dialogue_slot": 23,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 65919,
+  "tokens": 65911,
   "source": "023.json"
  },
  {
@@ -452,7 +452,7 @@
   "dialogue_slot": 25,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 64905,
+  "tokens": 64863,
   "source": "025.json"
  },
  {
@@ -460,7 +460,7 @@
   "dialogue_slot": 26,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 65992,
+  "tokens": 65988,
   "source": "026.json"
  },
  {
@@ -484,7 +484,7 @@
   "dialogue_slot": 34,
   "kind": "first",
   "copy": 1,
-  "tokens": 65995,
+  "tokens": 65981,
   "source": "034.json"
  },
  {
@@ -500,7 +500,7 @@
   "dialogue_slot": 29,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 64867,
+  "tokens": 64861,
   "source": "029.json"
  },
  {
@@ -516,7 +516,7 @@
   "dialogue_slot": 30,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 65516,
+  "tokens": 65513,
   "source": "030.json"
  },
  {
@@ -532,7 +532,7 @@
   "dialogue_slot": 36,
   "kind": "first",
   "copy": 1,
-  "tokens": 64738,
+  "tokens": 64730,
   "source": "036.json"
  },
  {
@@ -548,7 +548,7 @@
   "dialogue_slot": 37,
   "kind": "first",
   "copy": 1,
-  "tokens": 65210,
+  "tokens": 65202,
   "source": "037.json"
  },
  {
@@ -564,7 +564,7 @@
   "dialogue_slot": 39,
   "kind": "first",
   "copy": 1,
-  "tokens": 65976,
+  "tokens": 65972,
   "source": "039.json"
  },
  {
@@ -588,7 +588,7 @@
   "dialogue_slot": 34,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 65995,
+  "tokens": 65981,
   "source": "034.json"
  },
  {
@@ -604,7 +604,7 @@
   "dialogue_slot": 42,
   "kind": "first",
   "copy": 1,
-  "tokens": 65952,
+  "tokens": 65950,
   "source": "042.json"
  },
  {
@@ -628,7 +628,7 @@
   "dialogue_slot": 44,
   "kind": "first",
   "copy": 1,
-  "tokens": 65968,
+  "tokens": 65965,
   "source": "044.json"
  },
  {
@@ -644,7 +644,7 @@
   "dialogue_slot": 37,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 65210,
+  "tokens": 65202,
   "source": "037.json"
  },
  {
@@ -652,7 +652,7 @@
   "dialogue_slot": 36,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 64738,
+  "tokens": 64730,
   "source": "036.json"
  },
  {
@@ -660,7 +660,7 @@
   "dialogue_slot": 39,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 65976,
+  "tokens": 65972,
   "source": "039.json"
  },
  {
@@ -692,7 +692,7 @@
   "dialogue_slot": 48,
   "kind": "first",
   "copy": 1,
-  "tokens": 65414,
+  "tokens": 65398,
   "source": "048.json"
  },
  {
@@ -716,7 +716,7 @@
   "dialogue_slot": 50,
   "kind": "first",
   "copy": 1,
-  "tokens": 64717,
+  "tokens": 64492,
   "source": "050.json"
  },
  {
@@ -748,7 +748,7 @@
   "dialogue_slot": 42,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 65952,
+  "tokens": 65950,
   "source": "042.json"
  },
  {
@@ -764,7 +764,7 @@
   "dialogue_slot": 44,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 65968,
+  "tokens": 65965,
   "source": "044.json"
  },
  {
@@ -772,7 +772,7 @@
   "dialogue_slot": 52,
   "kind": "first",
   "copy": 1,
-  "tokens": 65737,
+  "tokens": 65727,
   "source": "052.json"
  },
  {
@@ -788,7 +788,7 @@
   "dialogue_slot": 53,
   "kind": "first",
   "copy": 1,
-  "tokens": 65999,
+  "tokens": 65991,
   "source": "053.json"
  },
  {
@@ -796,7 +796,7 @@
   "dialogue_slot": 54,
   "kind": "first",
   "copy": 1,
-  "tokens": 65990,
+  "tokens": 65970,
   "source": "054.json"
  },
  {
@@ -812,7 +812,7 @@
   "dialogue_slot": 1,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 65540,
+  "tokens": 65536,
   "source": "001.json"
  },
  {
@@ -820,7 +820,7 @@
   "dialogue_slot": 48,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 65414,
+  "tokens": 65398,
   "source": "048.json"
  },
  {
@@ -844,7 +844,7 @@
   "dialogue_slot": 50,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 64717,
+  "tokens": 64492,
   "source": "050.json"
  },
  {
@@ -860,7 +860,7 @@
   "dialogue_slot": 56,
   "kind": "first",
   "copy": 1,
-  "tokens": 65387,
+  "tokens": 65381,
   "source": "056.json"
  },
  {
@@ -884,7 +884,7 @@
   "dialogue_slot": 52,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 65737,
+  "tokens": 65727,
   "source": "052.json"
  },
  {
@@ -892,7 +892,7 @@
   "dialogue_slot": 59,
   "kind": "first",
   "copy": 1,
-  "tokens": 64704,
+  "tokens": 64690,
   "source": "059.json"
  },
  {
@@ -908,7 +908,7 @@
   "dialogue_slot": 53,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 65999,
+  "tokens": 65991,
   "source": "053.json"
  },
  {
@@ -916,7 +916,7 @@
   "dialogue_slot": 54,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 65990,
+  "tokens": 65970,
   "source": "054.json"
  },
  {
@@ -924,7 +924,7 @@
   "dialogue_slot": 61,
   "kind": "first",
   "copy": 1,
-  "tokens": 64570,
+  "tokens": 64568,
   "source": "061.json"
  },
  {
@@ -932,7 +932,7 @@
   "dialogue_slot": 62,
   "kind": "first",
   "copy": 1,
-  "tokens": 65463,
+  "tokens": 65459,
   "source": "062.json"
  },
  {
@@ -948,7 +948,7 @@
   "dialogue_slot": 64,
   "kind": "first",
   "copy": 1,
-  "tokens": 65965,
+  "tokens": 65925,
   "source": "064.json"
  },
  {
@@ -980,7 +980,7 @@
   "dialogue_slot": 67,
   "kind": "first",
   "copy": 1,
-  "tokens": 64539,
+  "tokens": 64523,
   "source": "067.json"
  },
  {
@@ -996,7 +996,7 @@
   "dialogue_slot": 56,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 65387,
+  "tokens": 65381,
   "source": "056.json"
  },
  {
@@ -1020,7 +1020,7 @@
   "dialogue_slot": 59,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 64704,
+  "tokens": 64690,
   "source": "059.json"
  },
  {
@@ -1036,7 +1036,7 @@
   "dialogue_slot": 62,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 65463,
+  "tokens": 65459,
   "source": "062.json"
  },
  {
@@ -1044,7 +1044,7 @@
   "dialogue_slot": 61,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 64570,
+  "tokens": 64568,
   "source": "061.json"
  },
  {
@@ -1052,7 +1052,7 @@
   "dialogue_slot": 64,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 65965,
+  "tokens": 65925,
   "source": "064.json"
  },
  {
@@ -1092,7 +1092,7 @@
   "dialogue_slot": 67,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 64539,
+  "tokens": 64523,
   "source": "067.json"
  },
  {
@@ -1100,7 +1100,7 @@
   "dialogue_slot": 70,
   "kind": "first",
   "copy": 1,
-  "tokens": 65913,
+  "tokens": 65907,
   "source": "070.json"
  },
  {
@@ -1124,7 +1124,7 @@
   "dialogue_slot": 72,
   "kind": "first",
   "copy": 1,
-  "tokens": 65976,
+  "tokens": 65974,
   "source": "072.json"
  },
  {
@@ -1164,7 +1164,7 @@
   "dialogue_slot": 76,
   "kind": "first",
   "copy": 1,
-  "tokens": 65626,
+  "tokens": 64531,
   "source": "082.json"
  },
  {
@@ -1180,7 +1180,7 @@
   "dialogue_slot": 78,
   "kind": "first",
   "copy": 1,
-  "tokens": 64537,
+  "tokens": 64510,
   "source": "084.json"
  },
  {
@@ -1212,7 +1212,7 @@
   "dialogue_slot": 81,
   "kind": "first",
   "copy": 1,
-  "tokens": 65248,
+  "tokens": 65223,
   "source": "087.json"
  },
  {
@@ -1228,7 +1228,7 @@
   "dialogue_slot": 70,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 65913,
+  "tokens": 65907,
   "source": "070.json"
  },
  {
@@ -1244,7 +1244,7 @@
   "dialogue_slot": 83,
   "kind": "first",
   "copy": 1,
-  "tokens": 64425,
+  "tokens": 64422,
   "source": "089.json"
  },
  {
@@ -1252,7 +1252,7 @@
   "dialogue_slot": 72,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 65976,
+  "tokens": 65974,
   "source": "072.json"
  },
  {
@@ -1300,7 +1300,7 @@
   "dialogue_slot": 76,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 65626,
+  "tokens": 64531,
   "source": "082.json"
  },
  {
@@ -1316,7 +1316,7 @@
   "dialogue_slot": 81,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 65248,
+  "tokens": 65223,
   "source": "087.json"
  },
  {
@@ -1324,7 +1324,7 @@
   "dialogue_slot": 78,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 64537,
+  "tokens": 64510,
   "source": "084.json"
  },
  {
@@ -1340,7 +1340,7 @@
   "dialogue_slot": 83,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 64425,
+  "tokens": 64422,
   "source": "089.json"
  },
  {
@@ -1364,7 +1364,7 @@
   "dialogue_slot": 86,
   "kind": "first",
   "copy": 1,
-  "tokens": 65978,
+  "tokens": 65973,
   "source": "092.json"
  },
  {
@@ -1428,7 +1428,7 @@
   "dialogue_slot": 93,
   "kind": "first",
   "copy": 1,
-  "tokens": 65912,
+  "tokens": 65906,
   "source": "099.json"
  },
  {
@@ -1436,7 +1436,7 @@
   "dialogue_slot": 94,
   "kind": "first",
   "copy": 1,
-  "tokens": 65372,
+  "tokens": 65368,
   "source": "100.json"
  },
  {
@@ -1444,7 +1444,7 @@
   "dialogue_slot": 95,
   "kind": "first",
   "copy": 1,
-  "tokens": 65990,
+  "tokens": 65988,
   "source": "101.json"
  },
  {
@@ -1468,7 +1468,7 @@
   "dialogue_slot": 98,
   "kind": "first",
   "copy": 1,
-  "tokens": 65969,
+  "tokens": 65801,
   "source": "104.json"
  },
  {
@@ -1476,7 +1476,7 @@
   "dialogue_slot": 99,
   "kind": "first",
   "copy": 1,
-  "tokens": 65984,
+  "tokens": 65934,
   "source": "105.json"
  },
  {
@@ -1508,7 +1508,7 @@
   "dialogue_slot": 86,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 65978,
+  "tokens": 65973,
   "source": "092.json"
  },
  {
@@ -1548,7 +1548,7 @@
   "dialogue_slot": 94,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 65372,
+  "tokens": 65368,
   "source": "100.json"
  },
  {
@@ -1556,7 +1556,7 @@
   "dialogue_slot": 95,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 65990,
+  "tokens": 65988,
   "source": "101.json"
  },
  {
@@ -1564,7 +1564,7 @@
   "dialogue_slot": 93,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 65912,
+  "tokens": 65906,
   "source": "099.json"
  },
  {
@@ -1572,7 +1572,7 @@
   "dialogue_slot": 98,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 65969,
+  "tokens": 65801,
   "source": "104.json"
  },
  {
@@ -1596,7 +1596,7 @@
   "dialogue_slot": 99,
   "kind": "repeat",
   "copy": 2,
-  "tokens": 65984,
+  "tokens": 65934,
   "source": "105.json"
  }
 ]
