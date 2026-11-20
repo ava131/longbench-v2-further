@@ -18,14 +18,22 @@ REQUIRED=['_id','domain','sub_domain','difficulty','length','question',
           'choice_A','choice_B','choice_C','choice_D','answer','context']
 
 def load(path):
-    raw=open(path,encoding='utf-8').read().strip()
-    if not raw: return []
-    if raw[0]=='[':
-        data=json.loads(raw)
+    with open(path,encoding='utf-8-sig') as f:
+        raw=f.read()
+    stripped=raw.lstrip()
+    if not stripped: return []
+    if stripped[0]=='[':
+        data=json.loads(stripped)
         if not isinstance(data,list): sys.exit(f'{path}: 不是数组')
         return data
+    if stripped[0]=='{':
+        try:
+            data=json.loads(stripped)
+            return data if isinstance(data,list) else [data]
+        except json.JSONDecodeError:
+            pass  # 当成 JSONL
     rows=[]
-    for i,line in enumerate(raw.splitlines(),1):
+    for i,line in enumerate(stripped.splitlines(),1):
         line=line.strip()
         if not line: continue
         try: rows.append(json.loads(line))
